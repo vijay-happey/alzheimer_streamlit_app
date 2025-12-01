@@ -1,0 +1,43 @@
+{
+  "model_info": {
+    "architecture": "ADConversionTransformer",
+    "parameters": 567426,
+    "input_features": 6,
+    "sequence_length": 7
+  },
+  "training_info": {
+    "epochs_trained": 200,
+    "best_validation_auc": 0.9888425958618742,
+    "final_accuracy": 0.957983193277311,
+    "final_auc": 0.9814631735046959,
+    "training_date": "20251015_122521",
+    "dataset_info": {
+      "total_patients": 1161,
+      "training_patients": 948,
+      "test_patients": 238,
+      "conversion_rate": 0.5
+    }
+  },
+  "performance_metrics": {
+    "accuracy": 0.957983193277311,
+    "auc_roc": 0.9814631735046959,
+    "precision": 0.936,
+    "recall": 0.9831932773109243,
+    "f1_score": 0.9590163934426229,
+    "sensitivity": 0.9831932773109243,
+    "specificity": 0.9327731092436975
+  },
+  "clinical_features": [
+    "ADAS11",
+    "LDELTOTAL",
+    "FAQ",
+    "CDRSB",
+    "MMSE",
+    "TRABSCOR"
+  ],
+  "file_paths": {
+    "model_file": "ad_conversion_model_20251015_122521.pth",
+    "config_file": "model_config_20251015_122521.pkl",
+    "metadata_file": "model_metadata_20251015_122521.json"
+  }
+}
